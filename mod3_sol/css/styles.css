@@ -1,0 +1,44 @@
+body {
+	color: black;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+nav.navbar {
+	height: 90px;
+}
+
+.navbar {
+	background-color: #618FEB;
+}
+
+.navbar-header {
+	height: 85px;
+}
+
+.navbar-default .navbar-brand {
+    color: #000000;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000000;
+}
+
+#bs-example-navbar-collapse-1 {
+	background-color: #618FEB;
+	text-align: center;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+	background-color: #E46BB1;
+	height: 700px;
+	position: relative;
+	border: 10px solid white;
+	overflow: hidden;
+}
+
+h2 {
+	margin-top: 120px;
+}
